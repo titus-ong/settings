@@ -1,0 +1,15 @@
+Conda: https://github.com/mandeep/sublime-text-conda
+Origami: https://github.com/SublimeText/Origami
+Package Control: https://packagecontrol.io
+PyTest: https://github.com/kaste/PyTest
+SideBarEnhancements: https://github.com/titoBouzout/SideBarEnhancements
+SublimeLinter: http://sublimelinter.com
+Theme - Spacegray: http://kkga.github.io/spacegray
+Anaconda: http://damnwidget.github.io/anaconda/
+SublimeREPL: https://github.com/wuub/SublimeREPL
+
+
+This list can be obtained by running the code below in Sublime Text 3's console:
+
+import os; [print(x + ": " + y) for x, y in [(os.path.dirname(file)[len('Packages/'):], sublime.decode_value(sublime.load_resource(file))['url']) for file in sublime.find_resources('package-metadata.json')]]
+
